@@ -1,4 +1,4 @@
-function slidesPlugin(activeSlide, event) {
+function slidesPlugin(activeSlide) {
   const slides = document.querySelectorAll('.slide');
 
   slides[activeSlide].classList.add('active');
